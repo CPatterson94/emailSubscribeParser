@@ -1,0 +1,28 @@
+To run the script you must install dependencies, in your terminal: 
+
+"npm install cheerio dotenv fs imap mailparser"
+
+connect your email steps:
+1. create a .env file
+2. create your .env file
+        EMAIL_USER=youEmail
+        EMAIL_PASSWORD=yourPassword
+        EMAIL_HOST=imap.mail.yahoo.com
+        EMAIL_PORT=993
+
+    the EMAIL_HOST and EMAIL_PORT can be found online and will be provided by your provider.
+    Most ports are 993, just google
+    "iMap (your provider Gmail, yahoo, etc.) server settings and port number.
+
+3. Once all your info is filled out you are good to go
+
+4. Run in the terminal
+"node script.js"
+
+5. I use VScode and I use the extension LiveServer and I just view the imformation in on LiveServer in my webbrowser.
+
+
+I plan on working on this and making it easier but this is a rough draft for now.
+
+NOTE: Not all links will be pulled even if it has an unsubscribe it does not pull the code sometimes.
+working on bug fixes for that.
